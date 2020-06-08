@@ -6,7 +6,7 @@ Link de apoio do material: http://everaldoscabral.blogspot.com/2020/01/sobre-o-z
 ```
 yum install git gzip dos2unix
 
-https://github.com/everaldoscabral/particionamento_MySQL-MariaDB.git
+git clone https://github.com/everaldoscabral/particionamento_MySQL-MariaDB.git
 
 cd particionamento_MySQL-MariaDB/
 
