@@ -15,3 +15,9 @@ chmod +x zbx_db_partitiong.sql
 dos2unix zbx_db_partitiong.sql
 
 ```
+
+# Expurgando logs antigos do banco
+crontab -e
+00 07 * * 1 sudo /database/script_expurgar_logs_antigos.sh
+
+Schedulando para executar 1 vez na semana às 7hrs da manhã.
